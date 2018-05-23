@@ -73,18 +73,16 @@ example of conditionally showing text if it's provided:
 const Hello = props => (
     <div>
         <h1>Hello, there!</h1>
-        {props.message && <p>{props.message}}
+        {props.message && <p>{props.message}</p>}
     </div>
 );
 
 const App = () => (
     <div>
         <Hello />
-        <Hello message="Pleased to meet you!"
-    </dvi>
+        <Hello message="Pleased to meet you!" />
+    </div>
 );
-
-export default App;
 ```
 
 The above would result in the following HTML:
@@ -100,6 +98,9 @@ The above would result in the following HTML:
         </div>
     </div>
 ```
+
+[Here's](https://jsfiddle.net/80oe9svv/) a runnable version if you'd like to
+play around with it.
 
 The line with `&&` in it basically reads as: "If there's a message, render a
 paragraph with that message". You can use the same trick to conditionally render
