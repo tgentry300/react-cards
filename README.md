@@ -33,8 +33,8 @@ the two key files in this project are:
   `index.css` may help you gain an understanding of how things are wired
   together.
 
-You should now be able to run `yarn start` from a terminal and see the familiar
-cards appear in your browser:
+Next, install dependencies using `yarn`. You should now be able to run `yarn start` from a 
+terminal and see the familiar cards appear in your browser:
 
 ![cards screenshot](screenshots/result.png)
 
