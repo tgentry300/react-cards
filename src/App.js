@@ -27,7 +27,9 @@ const App = () => (
         <div className="card cardGroup__card">
             <div className="card__description cardGroup__cardDescription">
                 <div className="icon fa fa-thumbs-o-up card__descriptionIcon" />
-                <div className="card__descriptionText">Trial</div>
+                <div className="card__descriptionText">
+                    Trial
+                </div>
             </div>
             <div className="card__price">Free!</div>
         </div>
