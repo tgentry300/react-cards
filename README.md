@@ -43,7 +43,7 @@ _Note: Please see the rubric on Canvas for detailed breeak down on how this
 assessment is being graded. The information below is provided for your
 convenience._
 
-### Step 1: Use the CardGroup component inside of the App component (2 points)
+### Step 1: Use the `CardGroup` component inside of the `App` component (2 points)
 We've already written a `CardGroup` component for you. You might however, have
 noticed that we _aren't_ using it anywhere. That is your first task. Take a look
 at the implementation for `CardGroup` and create an instance of it inside of
@@ -51,7 +51,7 @@ at the implementation for `CardGroup` and create an instance of it inside of
 
 Hint: Take a look at class names.
 
-### Step 2: Implement a Card component (6 points)
+### Step 2: Implement a `Card` component (6 points)
 
 We've stubbed out a dummy implementation for the `Card` component. replace the
 `div` with a proper implementation. That implementation should take the
