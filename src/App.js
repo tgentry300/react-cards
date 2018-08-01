@@ -45,9 +45,9 @@ class Card extends Component {
     return (
       <div className="card cardGroup__card">
         <div className="card__description cardGroup__cardDescription">
-        {this.props.hint && <div className="card_descriptionText">{this.props.hint}</div>}
           <div className={ classes } />
           <div className="card__descriptionText">{this.props.text}</div>
+        {this.props.hint && <div className="card__descriptionText">{this.props.hint}</div>}
         </div>
         <div className="card__price">{this.props.cardPrice}</div>
       </div>
